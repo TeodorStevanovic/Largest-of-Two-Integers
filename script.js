@@ -44,38 +44,38 @@
 // 3. Create a variable where we assume that the largest number is the first entered number in the array.
 // 4. Create another for loop in which we go through the entire array and, using a condition, check if a number is greater than the current largest number.
 
-let arr = [];
+// let arr = [];
 
 
-for (let i = 0; i < 2; i++) {
+// for (let i = 0; i < 2; i++) {
     
-  let userInput = prompt("Enter the Desired Number");
-  arr.push(parseFloat(userInput));
-  console.log("User input number is: ", userInput, ".");
-  console.log("**********************************************************************");
+//   let userInput = prompt("Enter the Desired Number");
+//   arr.push(parseFloat(userInput));
+//   console.log("User input number is: ", userInput, ".");
+//   console.log("**********************************************************************");
 
-}
+// }
 
-console.log("The numbers entered by the user are: ", arr);
-console.log("**********************************************************************");
+// console.log("The numbers entered by the user are: ", arr);
+// console.log("**********************************************************************");
 
-let theLargestNumber = arr[0];
+// let theLargestNumber = arr[0];
 
-console.log("We assume that the current largest number is the first entered number: ", arr[0], ".");
-console.log("**********************************************************************");
+// console.log("We assume that the current largest number is the first entered number: ", arr[0], ".");
+// console.log("**********************************************************************");
 
-for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
 
-  console.log("Checking if the number is greater than the current largest number: ", arr[i], " > ", theLargestNumber);
-  console.log("**********************************************************************");  
+//   console.log("Checking if the number is greater than the current largest number: ", arr[i], " > ", theLargestNumber);
+//   console.log("**********************************************************************");  
 
-  if (arr[i] > theLargestNumber) {
+//   if (arr[i] > theLargestNumber) {
 
-    theLargestNumber = arr[i];
+//     theLargestNumber = arr[i];
 
-  }
+//   }
 
-}
+// }
 
-console.log("After the checks inside the loop, we found that the largest number in the array is:  ", theLargestNumber, ".");
+// console.log("After the checks inside the loop, we found that the largest number in the array is:  ", theLargestNumber, ".");
 
